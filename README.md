@@ -18,7 +18,16 @@ We developed the pilot solution to demonstrate each key component of a Data Scie
 
 ## Instruction
 
+##### Environment Setup
+
     conda create -n favorita python=3.6
     activate favorita
     conda install pandas matplotlib jupyter notebook scipy scikit-learn
     pip install tensorflow keras lightgbm
+
+##### Run
+Please note the source data files `train.csv`, `test.csv` and `items.csv` are not included in the repo. To run the code, first you need to download and copy them to the same path as the model code.
+
+Lunch the Jupyter Notebook
+
+    jupyter notebook

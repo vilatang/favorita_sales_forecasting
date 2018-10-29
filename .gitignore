@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# CSV Source Data File
+train.csv
+test.csv
+df_20170401.csv
+items.csv
